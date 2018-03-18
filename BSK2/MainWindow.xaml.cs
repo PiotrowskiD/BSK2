@@ -23,6 +23,13 @@ namespace BSK2
         public MainWindow()
         {
             InitializeComponent();
+            LoginTextBox.Text = "login";
+            PasswordTextBox.Text = "password";
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
